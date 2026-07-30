@@ -323,8 +323,14 @@ def render_drift() -> None:
     err_baseline = pd.DataFrame(report.get("error_baseline") or [])
     if not err_rolling.empty:
         st.subheader("Error by horizon")
-        merged = err_rolling.merge(err_baseline, on="horizon_h", suffixes=("_recent", "_base"), how="outer")
-        st.dataframe(merged, hide_index=True, use_container_width=True)
+        if not err_baseline.empty and "horizon_h" in err_baseline.columns and "horizon_h" in err_rolling.columns:
+            merged = err_rolling.merge(
+                err_baseline, on="horizon_h", suffixes=("_recent", "_base"), how="outer"
+            )
+            st.dataframe(merged, hide_index=True, use_container_width=True)
+        else:
+            st.info("No baseline error data yet for this city — showing recent errors only.")
+            st.dataframe(err_rolling, hide_index=True, use_container_width=True)
 
 
 # ---------------------------------------------------------------------------
