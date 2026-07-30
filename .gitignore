@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+.env
+.ipynb_checkpoints/
+data/raw/*.parquet
+data/raw/*.csv
+data/feature_store/*.parquet
+models/*.joblib
+models/*.json.bak
+reports/figures/*.png
+.streamlit/secrets.toml
+venv/

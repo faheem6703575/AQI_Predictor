@@ -1,0 +1,58 @@
+name: Training pipeline (daily)
+
+on:
+  schedule:
+    - cron: "30 2 * * *"   # 02:30 UTC daily
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  train-model:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Ensure feature store is bootstrapped (backfills first run)
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from src.config import load_config
+          from src.feature_pipeline import run_backfill
+
+          cfg = load_config()
+          store = Path(cfg.path("feature_store_dir")) / "engineered_features" / "data.parquet"
+          if not store.exists():
+              print("No feature store yet; running 365-day backfill for all cities")
+              run_backfill(backfill_days=365)
+          else:
+              print("Feature store exists.")
+          PY
+
+      - name: Train + tune models for all cities
+        run: python -m src train
+
+      - name: Commit updated model registry + reports
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add models reports/training_summary.json 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git commit -m "chore(model): daily retrain [skip ci]"
+            git push
+          else
+            echo "No changes to commit."
+          fi

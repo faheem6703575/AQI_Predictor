@@ -1,0 +1,111 @@
+# ============================================================================
+# Pearls AQI Predictor - configuration (advanced)
+# ============================================================================
+# Paths are resolved relative to the project root.
+# Cities are a list - the dashboard shows a selector; pipelines loop over all.
+
+cities:
+  - name: "Karachi"
+    country: "Pakistan"
+    latitude: 24.8607
+    longitude: 67.0011
+    timezone: "Asia/Karachi"
+  - name: "Lahore"
+    country: "Pakistan"
+    latitude: 31.5497
+    longitude: 74.3436
+    timezone: "Asia/Karachi"
+  - name: "Delhi"
+    country: "India"
+    latitude: 28.6139
+    longitude: 77.2090
+    timezone: "Asia/Kolkata"
+
+# The city that pipelines default to when --city is not passed.
+default_city: "Karachi"
+
+# Open-Meteo (free, no key)
+api:
+  air_quality_url: "https://air-quality-api.open-meteo.com/v1/air-quality"
+  forecast_url: "https://api.open-meteo.com/v1/forecast"
+  archive_url: "https://archive-api.open-meteo.com/v1/archive"
+  timeout_seconds: 30
+  retries: 3
+  retry_backoff_seconds: 5
+
+variables:
+  air_quality:
+    - "pm10"
+    - "pm2_5"
+    - "carbon_monoxide"
+    - "nitrogen_dioxide"
+    - "sulphur_dioxide"
+    - "ozone"
+    - "us_aqi"
+  weather:
+    - "temperature_2m"
+    - "relative_humidity_2m"
+    - "dew_point_2m"
+    - "surface_pressure"
+    - "precipitation"
+    - "wind_speed_10m"
+    - "wind_direction_10m"
+  # Subset of weather variables to also use as *future exogenous* features
+  # (their forecast at t+h is used as an input feature when predicting AQI
+  # at t+h). This is a major accuracy boost for multi-day forecasting.
+  future_weather:
+    - "temperature_2m"
+    - "relative_humidity_2m"
+    - "precipitation"
+    - "wind_speed_10m"
+
+forecast:
+  horizons_hours: [1, 6, 12, 24, 48, 72]
+  target_variable: "us_aqi"
+  quantiles: [0.1, 0.5, 0.9]   # P10 / P50 / P90 uncertainty bands
+
+storage:
+  raw_dir: "data/raw"
+  feature_store_dir: "data/feature_store"
+  model_registry_dir: "models"
+  reports_dir: "reports"
+  forecast_history_dir: "data/forecast_history"
+
+training:
+  backfill_days: 365
+  test_size_days: 30
+  cv_folds: 4                  # rolling-origin cross-validation folds
+  random_state: 42
+  models:
+    - "naive_persistence"
+    - "ridge"
+    - "random_forest"
+    - "gradient_boosting"
+    - "lightgbm"
+    - "lightgbm_quantile"      # produces P10/P50/P90 intervals
+    - "mlp"
+    - "lstm"                   # PyTorch sequence model
+    - "sarimax"
+  tuning:
+    enabled: true
+    n_trials: 8                # raise to 30+ for production
+    models_to_tune:
+      - "ridge"                # only tune ridge; lightgbm tuning is expensive
+
+
+drift:
+  window_days: 14              # rolling window over which we compute drift
+  psi_alert_threshold: 0.25    # Population Stability Index alert level
+
+api_server:
+  host: "0.0.0.0"
+  port: 8000
+
+alerts:
+  thresholds:
+    moderate: 51
+    unhealthy_sensitive: 101
+    unhealthy: 151
+    very_unhealthy: 201
+    hazardous: 301
+  notify_on_level: "unhealthy"

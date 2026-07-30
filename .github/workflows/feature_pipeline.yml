@@ -1,0 +1,65 @@
+name: Feature pipeline (hourly)
+
+on:
+  schedule:
+    - cron: "5 * * * *"    # every hour at HH:05
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  run-feature-pipeline:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Hourly feature refresh (all cities)
+        run: python -m src features --past-days 7
+
+      - name: Forecast + alerts + drift (all cities)
+        run: |
+          python - <<'PY'
+          from src.config import load_config
+          from src.predict import predict_forecast
+          from src.alerts import evaluate_forecast_for_alerts, dispatch
+          from src.drift_monitor import compute_drift
+
+          cfg = load_config()
+          for c in cfg.cities:
+              try:
+                  fc = predict_forecast(cfg=cfg, city=c["name"])
+                  alerts = evaluate_forecast_for_alerts(
+                      fc.horizon_predictions, cfg=cfg.use_city(c["name"])
+                  )
+                  dispatch(alerts, cfg.use_city(c["name"]))
+                  compute_drift(cfg=cfg, city=c["name"])
+              except Exception as exc:  # noqa: BLE001
+                  print(f"[{c['name']}] failed: {exc}")
+          PY
+        env:
+          ALERT_WEBHOOK_URL: ${{ secrets.ALERT_WEBHOOK_URL }}
+
+      - name: Commit updated feature store + reports
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/feature_store data/forecast_history reports/alerts.json reports/drift_*.json 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git commit -m "chore(features): hourly refresh [skip ci]"
+            git push
+          else
+            echo "No changes to commit."
+          fi
