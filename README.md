@@ -217,3 +217,21 @@ bounds to avoid this. To repair an already-broken venv:
 
 RMSE is **~38 % lower** than the v1 setup (10.9), thanks primarily to
 future-weather features + Optuna tuning.
+
+
+## Screenshots
+<img width="1919" height="976" alt="image" src="https://github.com/user-attachments/assets/46e2053b-24d2-45d5-b4d4-2ac5f3af9543" />
+<img width="1919" height="918" alt="image" src="https://github.com/user-attachments/assets/ab2ae4fa-6ee2-4c99-9bc3-e3c1cbc075e4" />
+<img width="1919" height="973" alt="image" src="https://github.com/user-attachments/assets/351caa36-e230-4c00-b8b7-da3c7e4b145c" />
+<img width="1919" height="963" alt="image" src="https://github.com/user-attachments/assets/9bcbce02-ff69-41a1-aae9-aa2f5fd01921" />
+<img width="1919" height="963" alt="image" src="https://github.com/user-attachments/assets/e722cad7-957f-494d-b9f3-10a95ccb9bf9" />
+<img width="1918" height="957" alt="image" src="https://github.com/user-attachments/assets/6f653c4f-9fcf-4a40-b3d0-20ee295b8557" />
+
+
+
+
+
+
+
+
+
