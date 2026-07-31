@@ -1,5 +1,11 @@
 
-# Pearls AQI Predictor - Advanced Edition
+# AQI Predictor - Advanced Edition
+
+## Here is the URL of live project
+https://faheem-aqi-predictor.streamlit.app/
+
+## For video demo of my project, click the link below
+https://drive.google.com/file/d/1gJ6380BbempwLMTOQ9y78vrAu3y0Brp8/view
 
 > Predict the **US Air Quality Index (AQI)** for multiple cities over the
 > next **72 hours** using a 100 % serverless MLOps stack: automated
