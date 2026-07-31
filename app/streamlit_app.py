@@ -98,8 +98,8 @@ with st.sidebar:
     st.caption("Serverless 3-day AQI forecasting")
     st.markdown("---")
 
-    ENABLED_CITIES = {"Karachi"}  
-    city_names = [c["name"] for c in CFG.cities if c["name"] == "Karachi"]
+     
+    city_names = [c["name"] for c in CFG.cities]
     default_ix = city_names.index(CFG.default_city_name) if CFG.default_city_name in city_names else 0
     selected_city = st.selectbox("City", city_names, index=default_ix)
 
