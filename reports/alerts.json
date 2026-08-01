@@ -1,5 +1,32 @@
 {
-  "issued_at": "2026-07-31T22:14:54.649439+00:00",
-  "count": 0,
-  "alerts": []
+  "issued_at": "2026-08-01T00:11:14.980393+00:00",
+  "count": 2,
+  "alerts": [
+    {
+      "issued_at": "2026-08-01T00:11:14.979656+00:00",
+      "city": "Delhi",
+      "level": "unhealthy",
+      "aqi": 161.8131998180616,
+      "timestamp": "2026-08-01T11:00:00+00:00",
+      "category": "Unhealthy",
+      "color": "#FF0000",
+      "message": "AQI in Delhi predicted to reach 162 (Unhealthy) at 2026-08-01 11:00Z.",
+      "extra": {
+        "horizon_h": 12
+      }
+    },
+    {
+      "issued_at": "2026-08-01T00:11:14.979656+00:00",
+      "city": "Delhi",
+      "level": "unhealthy",
+      "aqi": 185.5031455199691,
+      "timestamp": "2026-08-01T23:00:00+00:00",
+      "category": "Unhealthy",
+      "color": "#FF0000",
+      "message": "AQI in Delhi predicted to reach 186 (Unhealthy) at 2026-08-01 23:00Z.",
+      "extra": {
+        "horizon_h": 24
+      }
+    }
+  ]
 }
