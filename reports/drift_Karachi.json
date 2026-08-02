@@ -1,10 +1,10 @@
 {
   "city": "Karachi",
-  "computed_at": "2026-08-02T14:43:37.086347+00:00",
+  "computed_at": "2026-08-02T16:11:51.533537+00:00",
   "feature_psi": {
     "pm10": 2.1723470711128066,
     "pm2_5": 1.5418209659837239,
-    "carbon_monoxide": 3.2526004707952816,
+    "carbon_monoxide": 3.229061961808734,
     "nitrogen_dioxide": 2.7136340468557547,
     "sulphur_dioxide": 4.6867720119456635,
     "ozone": 1.564156949157784,
@@ -110,39 +110,39 @@
   "error_rolling": [
     {
       "horizon_h": 1,
-      "mae": 0.569756037229232,
-      "rmse": 0.6232857700171883,
-      "n": 28
+      "mae": 0.5791183795107261,
+      "rmse": 0.6320549214206186,
+      "n": 29
     },
     {
       "horizon_h": 6,
-      "mae": 2.299649873556656,
-      "rmse": 2.984244118331069,
-      "n": 28
+      "mae": 2.231889359154296,
+      "rmse": 2.9329984457637583,
+      "n": 29
     },
     {
       "horizon_h": 12,
-      "mae": 3.7621634848452294,
-      "rmse": 4.109760174203451,
-      "n": 28
+      "mae": 3.686834952768287,
+      "rmse": 4.048893160060445,
+      "n": 29
     },
     {
       "horizon_h": 24,
-      "mae": 5.477210604716616,
-      "rmse": 6.182678780325131,
-      "n": 28
+      "mae": 5.400719246127374,
+      "rmse": 6.105213434544415,
+      "n": 29
     },
     {
       "horizon_h": 48,
-      "mae": 5.747959743064397,
-      "rmse": 6.370962840693514,
-      "n": 28
+      "mae": 5.691024846212754,
+      "rmse": 6.306211639023526,
+      "n": 29
     },
     {
       "horizon_h": 72,
-      "mae": 2.3747300334903443,
-      "rmse": 3.461863059826791,
-      "n": 28
+      "mae": 2.362620308748676,
+      "rmse": 3.422343572067082,
+      "n": 29
     }
   ],
   "error_baseline": [
@@ -195,7 +195,7 @@
     "Feature PSI drift: us_aqi_lag_6h=6.721 (>0.25)",
     "Feature PSI drift: us_aqi_lag_3h=6.715 (>0.25)",
     "Feature PSI drift: us_aqi_lag_1h=6.712 (>0.25)",
-    "Error drift at h=6.0: recent MAE 2.3 vs baseline 0.1",
-    "Error drift at h=12.0: recent MAE 3.8 vs baseline 2.1"
+    "Error drift at h=6.0: recent MAE 2.2 vs baseline 0.1",
+    "Error drift at h=12.0: recent MAE 3.7 vs baseline 2.1"
   ]
 }
