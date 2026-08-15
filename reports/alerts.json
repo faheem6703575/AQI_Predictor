@@ -1,12 +1,12 @@
 {
-  "issued_at": "2026-08-15T12:57:08.043412+00:00",
+  "issued_at": "2026-08-15T13:39:59.980945+00:00",
   "count": 4,
   "alerts": [
     {
-      "issued_at": "2026-08-15T12:57:08.042664+00:00",
+      "issued_at": "2026-08-15T13:39:59.979976+00:00",
       "city": "Delhi",
       "level": "unhealthy",
-      "aqi": 156.23042790246842,
+      "aqi": 156.2020528261318,
       "timestamp": "2026-08-15T00:00:00+00:00",
       "category": "Unhealthy",
       "color": "#FF0000",
@@ -16,10 +16,10 @@
       }
     },
     {
-      "issued_at": "2026-08-15T12:57:08.042664+00:00",
+      "issued_at": "2026-08-15T13:39:59.979976+00:00",
       "city": "Delhi",
       "level": "unhealthy",
-      "aqi": 158.75980599110963,
+      "aqi": 159.09408023297942,
       "timestamp": "2026-08-15T05:00:00+00:00",
       "category": "Unhealthy",
       "color": "#FF0000",
@@ -29,27 +29,27 @@
       }
     },
     {
-      "issued_at": "2026-08-15T12:57:08.042664+00:00",
+      "issued_at": "2026-08-15T13:39:59.979976+00:00",
       "city": "Delhi",
       "level": "unhealthy",
-      "aqi": 163.79972434915106,
+      "aqi": 165.96590675153442,
       "timestamp": "2026-08-15T11:00:00+00:00",
       "category": "Unhealthy",
       "color": "#FF0000",
-      "message": "AQI in Delhi predicted to reach 164 (Unhealthy) at 2026-08-15 11:00Z.",
+      "message": "AQI in Delhi predicted to reach 166 (Unhealthy) at 2026-08-15 11:00Z.",
       "extra": {
         "horizon_h": 12
       }
     },
     {
-      "issued_at": "2026-08-15T12:57:08.042664+00:00",
+      "issued_at": "2026-08-15T13:39:59.979976+00:00",
       "city": "Delhi",
       "level": "unhealthy",
-      "aqi": 159.13982091379836,
+      "aqi": 177.44799453887626,
       "timestamp": "2026-08-15T23:00:00+00:00",
       "category": "Unhealthy",
       "color": "#FF0000",
-      "message": "AQI in Delhi predicted to reach 159 (Unhealthy) at 2026-08-15 23:00Z.",
+      "message": "AQI in Delhi predicted to reach 177 (Unhealthy) at 2026-08-15 23:00Z.",
       "extra": {
         "horizon_h": 24
       }
