@@ -1,6 +1,6 @@
 {
   "city": "Karachi",
-  "computed_at": "2026-08-16T20:36:01.838810+00:00",
+  "computed_at": "2026-08-16T21:32:04.644354+00:00",
   "feature_psi": {
     "pm10": 0.4870279429716393,
     "pm2_5": 2.791502351386495,
@@ -9,13 +9,13 @@
     "sulphur_dioxide": 10.516553820154234,
     "ozone": 3.841003807099769,
     "us_aqi": 6.596962220272552,
-    "temperature_2m": 6.241964547596643,
-    "relative_humidity_2m": 4.054232731346247,
+    "temperature_2m": 6.237079636466609,
+    "relative_humidity_2m": 4.054897924740173,
     "dew_point_2m": 7.911571435824141,
     "surface_pressure": 7.725632438674458,
     "precipitation": 0.0,
-    "wind_speed_10m": 2.9765748512770345,
-    "wind_direction_10m": 4.14635332859075,
+    "wind_speed_10m": 2.9774863195768284,
+    "wind_direction_10m": 4.139164922715432,
     "pm10_isna": 0.0,
     "pm2_5_isna": 0.0,
     "carbon_monoxide_isna": 0.0,
@@ -67,33 +67,33 @@
     "us_aqi_diff_1h": 1.191689919483807,
     "us_aqi_pct_change_1h": 1.5275038945494381,
     "us_aqi_diff_24h": 3.981005843733043,
-    "temp_humidity": 5.581800715594249,
-    "wind_u": 5.208124165641616,
-    "wind_v": 3.9314064838742984,
-    "temperature_2m_fh1": 6.2408618027734875,
-    "relative_humidity_2m_fh1": 4.052992719512938,
+    "temp_humidity": 5.577967886341994,
+    "wind_u": 5.204273552746541,
+    "wind_v": 3.9273988465543654,
+    "temperature_2m_fh1": 6.235980349655659,
+    "relative_humidity_2m_fh1": 4.053659205400702,
     "precipitation_fh1": 0.0,
-    "wind_speed_10m_fh1": 2.974769784450855,
-    "temperature_2m_fh6": 6.240530601527377,
-    "relative_humidity_2m_fh6": 4.048897874217472,
+    "wind_speed_10m_fh1": 2.9757806507646287,
+    "temperature_2m_fh6": 6.235448848414574,
+    "relative_humidity_2m_fh6": 4.049376971965805,
     "precipitation_fh6": 0.0,
-    "wind_speed_10m_fh6": 3.0404944533214264,
-    "temperature_2m_fh12": 6.236193502450492,
-    "relative_humidity_2m_fh12": 4.119843284812521,
+    "wind_speed_10m_fh6": 3.041524760568873,
+    "temperature_2m_fh12": 6.232104140630416,
+    "relative_humidity_2m_fh12": 4.120310888958549,
     "precipitation_fh12": 0.0,
-    "wind_speed_10m_fh12": 3.0268067011674673,
-    "temperature_2m_fh24": 6.2495238880013,
-    "relative_humidity_2m_fh24": 4.108301648335512,
+    "wind_speed_10m_fh12": 3.028116172407493,
+    "temperature_2m_fh24": 6.244291422435235,
+    "relative_humidity_2m_fh24": 4.108623407206363,
     "precipitation_fh24": 0.0,
-    "wind_speed_10m_fh24": 3.011234758425813,
-    "temperature_2m_fh48": 6.251778662768396,
-    "relative_humidity_2m_fh48": 4.089287288225159,
+    "wind_speed_10m_fh24": 3.0160847935028157,
+    "temperature_2m_fh48": 6.246604704251498,
+    "relative_humidity_2m_fh48": 4.088186989049405,
     "precipitation_fh48": 0.0,
-    "wind_speed_10m_fh48": 2.9691791579706357,
-    "temperature_2m_fh72": 6.2672530340713095,
-    "relative_humidity_2m_fh72": 4.082251042931317,
+    "wind_speed_10m_fh48": 2.974126845122615,
+    "temperature_2m_fh72": 6.262307109960023,
+    "relative_humidity_2m_fh72": 4.082050518321234,
     "precipitation_fh72": 0.0,
-    "wind_speed_10m_fh72": 2.9404411511365227
+    "wind_speed_10m_fh72": 2.945397904134761
   },
   "top_shifted_features": [
     "month_sin",
@@ -110,52 +110,52 @@
   "error_rolling": [
     {
       "horizon_h": 1,
-      "mae": 0.40561410062009673,
-      "rmse": 0.50324651100852,
-      "n": 183
+      "mae": 0.4074532841811497,
+      "rmse": 0.5048655214400946,
+      "n": 184
     },
     {
       "horizon_h": 6,
-      "mae": 1.4558664762916869,
-      "rmse": 1.8629461691656355,
-      "n": 183
+      "mae": 1.450347564137221,
+      "rmse": 1.8581605603769171,
+      "n": 184
     },
     {
       "horizon_h": 12,
-      "mae": 3.3309196921098527,
-      "rmse": 3.8757537732245546,
-      "n": 183
+      "mae": 3.3277453730989808,
+      "rmse": 3.8705083893078456,
+      "n": 184
     },
     {
       "horizon_h": 24,
-      "mae": 3.156857865639692,
-      "rmse": 4.451553827461428,
-      "n": 192
+      "mae": 3.1512706220252253,
+      "rmse": 4.4425264066766506,
+      "n": 193
     },
     {
       "horizon_h": 48,
-      "mae": 3.0430652771055056,
-      "rmse": 4.423636284413509,
-      "n": 200
+      "mae": 3.0412895594025002,
+      "rmse": 4.416684206737127,
+      "n": 201
     },
     {
       "horizon_h": 72,
-      "mae": 3.5611049690171455,
-      "rmse": 4.14996635132458,
-      "n": 211
+      "mae": 3.5660809703988408,
+      "rmse": 4.152287495656526,
+      "n": 212
     }
   ],
   "error_baseline": [
     {
       "horizon_h": 1,
       "mae": 0.5781165802324844,
-      "rmse": 0.6497595249788922,
+      "rmse": 0.6497595249788923,
       "n": 52
     },
     {
       "horizon_h": 6,
       "mae": 1.4347758164517164,
-      "rmse": 2.21985816490846,
+      "rmse": 2.2198581649084606,
       "n": 52
     },
     {
@@ -167,7 +167,7 @@
     {
       "horizon_h": 24,
       "mae": 4.439548785901564,
-      "rmse": 5.2594413476047395,
+      "rmse": 5.259441347604739,
       "n": 43
     },
     {
