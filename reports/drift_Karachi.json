@@ -1,14 +1,14 @@
 {
   "city": "Karachi",
-  "computed_at": "2026-08-21T09:50:29.261429+00:00",
+  "computed_at": "2026-08-21T10:42:32.142626+00:00",
   "feature_psi": {
-    "pm10": 0.3952481916724714,
-    "pm2_5": 2.972546698491212,
+    "pm10": 0.43260368332564125,
+    "pm2_5": 3.985958803485569,
     "carbon_monoxide": 6.55726243930662,
-    "nitrogen_dioxide": 4.098105892291639,
-    "sulphur_dioxide": 10.607927908352421,
-    "ozone": 3.994524928441188,
-    "us_aqi": 5.465035435657953,
+    "nitrogen_dioxide": 4.095635518979301,
+    "sulphur_dioxide": 10.610656284926083,
+    "ozone": 4.023680042588025,
+    "us_aqi": 6.5754240525933065,
     "temperature_2m": 5.540936936629808,
     "relative_humidity_2m": 3.956545346438615,
     "dew_point_2m": 9.246167160806708,
@@ -53,20 +53,20 @@
     "hour_cos": 6.566711044700012e-05,
     "month_sin": 12.384413607217937,
     "month_cos": 12.380625657006929,
-    "us_aqi_lag_1h": 5.486656345145686,
-    "us_aqi_lag_3h": 5.5389463698215575,
-    "us_aqi_lag_6h": 5.667638249212775,
-    "us_aqi_lag_12h": 6.755195222313487,
-    "us_aqi_lag_24h": 7.656862593794505,
-    "us_aqi_lag_48h": 7.715253048690695,
+    "us_aqi_lag_1h": 6.592676510366737,
+    "us_aqi_lag_3h": 6.633387856197139,
+    "us_aqi_lag_6h": 6.723481430627757,
+    "us_aqi_lag_12h": 7.616844004282153,
+    "us_aqi_lag_24h": 7.624125969456514,
+    "us_aqi_lag_48h": 7.734374352083066,
     "us_aqi_lag_72h": 7.852963110172341,
-    "us_aqi_rmean_6h": 5.53392055914862,
-    "us_aqi_rstd_6h": 3.8865877186442845,
-    "us_aqi_rmean_24h": 7.655755084817095,
-    "us_aqi_rstd_24h": 6.5134849730495645,
-    "us_aqi_diff_1h": 1.1971779572016905,
-    "us_aqi_pct_change_1h": 1.085413362479794,
-    "us_aqi_diff_24h": 4.0834498618156445,
+    "us_aqi_rmean_6h": 6.581874036253709,
+    "us_aqi_rstd_6h": 4.00487020435361,
+    "us_aqi_rmean_24h": 7.693436236365329,
+    "us_aqi_rstd_24h": 6.579890151403426,
+    "us_aqi_diff_1h": 1.2306521625220215,
+    "us_aqi_pct_change_1h": 1.095369160812416,
+    "us_aqi_diff_24h": 4.18341618248434,
     "temp_humidity": 6.367887670742031,
     "wind_u": 4.284700087295862,
     "wind_v": 4.0078671325127555,
@@ -103,46 +103,46 @@
     "dew_point_2m",
     "us_aqi_lag_72h",
     "us_aqi_lag_48h",
-    "us_aqi_lag_24h",
     "us_aqi_rmean_24h",
-    "surface_pressure"
+    "us_aqi_lag_24h",
+    "us_aqi_lag_12h"
   ],
   "error_rolling": [
     {
       "horizon_h": 1,
-      "mae": 0.5082910361987437,
-      "rmse": 0.6358083148591934,
-      "n": 213
+      "mae": 0.5081726697425508,
+      "rmse": 0.6351796139242444,
+      "n": 214
     },
     {
       "horizon_h": 6,
-      "mae": 1.3611098654822387,
-      "rmse": 1.746830850213189,
-      "n": 213
+      "mae": 1.3569889669360349,
+      "rmse": 1.7430525736657816,
+      "n": 214
     },
     {
       "horizon_h": 12,
-      "mae": 3.1357423786909155,
-      "rmse": 3.655010644330046,
-      "n": 213
+      "mae": 3.097188887709725,
+      "rmse": 3.6207824873300347,
+      "n": 214
     },
     {
       "horizon_h": 24,
-      "mae": 3.7178027281594894,
-      "rmse": 4.429709885298419,
-      "n": 232
+      "mae": 3.640699567965934,
+      "rmse": 4.374959801975233,
+      "n": 233
     },
     {
       "horizon_h": 48,
-      "mae": 4.178870249829092,
-      "rmse": 5.40228848183609,
-      "n": 251
+      "mae": 4.260100743488908,
+      "rmse": 5.39617141217979,
+      "n": 252
     },
     {
       "horizon_h": 72,
-      "mae": 5.420013227512351,
-      "rmse": 6.548044668450778,
-      "n": 267
+      "mae": 5.918586418217293,
+      "rmse": 7.0773661045905945,
+      "n": 268
     }
   ],
   "error_baseline": [
@@ -167,7 +167,7 @@
     {
       "horizon_h": 24,
       "mae": 2.9263691591818954,
-      "rmse": 4.207451949554721,
+      "rmse": 4.207451949554722,
       "n": 101
     },
     {
@@ -188,12 +188,12 @@
     "Feature PSI drift: month_sin=12.384 (>0.25)",
     "Feature PSI drift: month=12.383 (>0.25)",
     "Feature PSI drift: month_cos=12.381 (>0.25)",
-    "Feature PSI drift: sulphur_dioxide=10.608 (>0.25)",
+    "Feature PSI drift: sulphur_dioxide=10.611 (>0.25)",
     "Feature PSI drift: dew_point_2m=9.246 (>0.25)",
     "Feature PSI drift: us_aqi_lag_72h=7.853 (>0.25)",
-    "Feature PSI drift: us_aqi_lag_48h=7.715 (>0.25)",
-    "Feature PSI drift: us_aqi_lag_24h=7.657 (>0.25)",
-    "Feature PSI drift: us_aqi_rmean_24h=7.656 (>0.25)",
-    "Feature PSI drift: surface_pressure=7.220 (>0.25)"
+    "Feature PSI drift: us_aqi_lag_48h=7.734 (>0.25)",
+    "Feature PSI drift: us_aqi_rmean_24h=7.693 (>0.25)",
+    "Feature PSI drift: us_aqi_lag_24h=7.624 (>0.25)",
+    "Feature PSI drift: us_aqi_lag_12h=7.617 (>0.25)"
   ]
 }
