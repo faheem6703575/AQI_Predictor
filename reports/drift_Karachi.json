@@ -1,10 +1,10 @@
 {
   "city": "Karachi",
-  "computed_at": "2026-08-30T12:52:20.627105+00:00",
+  "computed_at": "2026-08-30T17:26:41.041050+00:00",
   "feature_psi": {
     "pm10": 0.22724637071301818,
     "pm2_5": 1.0428376318377874,
-    "carbon_monoxide": 5.3192634736374895,
+    "carbon_monoxide": 5.36178045464243,
     "nitrogen_dioxide": 3.8648156693535256,
     "sulphur_dioxide": 8.300907383646887,
     "ozone": 3.0458125995587295,
@@ -110,39 +110,39 @@
   "error_rolling": [
     {
       "horizon_h": 1,
-      "mae": 0.3762428819617972,
-      "rmse": 0.4745779037385253,
-      "n": 178
+      "mae": 0.37608821720214164,
+      "rmse": 0.47396696157087126,
+      "n": 179
     },
     {
       "horizon_h": 6,
-      "mae": 1.5213449096549678,
-      "rmse": 1.7240561978354094,
-      "n": 178
+      "mae": 1.5129386924248893,
+      "rmse": 1.719234103010342,
+      "n": 179
     },
     {
       "horizon_h": 12,
-      "mae": 4.28808887904589,
-      "rmse": 4.852965323065945,
-      "n": 178
+      "mae": 4.2738059186220685,
+      "rmse": 4.841120635806914,
+      "n": 179
     },
     {
       "horizon_h": 24,
-      "mae": 5.452195601581615,
-      "rmse": 6.466169377188106,
-      "n": 201
+      "mae": 5.4387643552036495,
+      "rmse": 6.453022627994645,
+      "n": 202
     },
     {
       "horizon_h": 48,
-      "mae": 8.477844763518315,
-      "rmse": 9.900030980932355,
-      "n": 222
+      "mae": 8.484547205137803,
+      "rmse": 9.900357089572607,
+      "n": 223
     },
     {
       "horizon_h": 72,
-      "mae": 9.596207629420633,
-      "rmse": 10.047136116067072,
-      "n": 244
+      "mae": 9.613751330301053,
+      "rmse": 10.065828457014423,
+      "n": 245
     }
   ],
   "error_baseline": [
@@ -155,7 +155,7 @@
     {
       "horizon_h": 6,
       "mae": 1.3466408433205173,
-      "rmse": 1.8178910944228481,
+      "rmse": 1.8178910944228484,
       "n": 282
     },
     {
@@ -193,9 +193,9 @@
     "Feature PSI drift: surface_pressure=8.051 (>0.25)",
     "Feature PSI drift: temp_humidity=6.273 (>0.25)",
     "Feature PSI drift: day=5.395 (>0.25)",
-    "Feature PSI drift: carbon_monoxide=5.319 (>0.25)",
+    "Feature PSI drift: carbon_monoxide=5.362 (>0.25)",
     "Feature PSI drift: temperature_2m_fh12=5.067 (>0.25)",
-    "Error drift at h=24.0: recent MAE 5.5 vs baseline 3.5",
+    "Error drift at h=24.0: recent MAE 5.4 vs baseline 3.5",
     "Error drift at h=48.0: recent MAE 8.5 vs baseline 3.4",
     "Error drift at h=72.0: recent MAE 9.6 vs baseline 3.7"
   ]
