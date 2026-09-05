@@ -1,10 +1,10 @@
 {
   "city": "Delhi",
-  "computed_at": "2026-09-05T13:53:58.501265+00:00",
+  "computed_at": "2026-09-05T16:49:25.144327+00:00",
   "feature_psi": {
     "pm10": 0.2724366488332236,
     "pm2_5": 0.20207560888634118,
-    "carbon_monoxide": 0.12324678826390681,
+    "carbon_monoxide": 0.10448329250668092,
     "nitrogen_dioxide": 0.16341830237991234,
     "sulphur_dioxide": 0.2070639034664399,
     "ozone": 0.19981853421153323,
@@ -110,39 +110,39 @@
   "error_rolling": [
     {
       "horizon_h": 1,
-      "mae": 1.4033116782446458,
-      "rmse": 2.126322185016526,
-      "n": 82
+      "mae": 1.3874694122010158,
+      "rmse": 2.1134964749653773,
+      "n": 83
     },
     {
       "horizon_h": 6,
-      "mae": 10.056229532758024,
-      "rmse": 16.08328964937722,
-      "n": 82
+      "mae": 9.946149007673593,
+      "rmse": 15.986427395487192,
+      "n": 83
     },
     {
       "horizon_h": 12,
-      "mae": 40.39647999022313,
-      "rmse": 50.6756717972091,
-      "n": 82
+      "mae": 39.93492436195375,
+      "rmse": 50.369992677764145,
+      "n": 83
     },
     {
       "horizon_h": 24,
-      "mae": 20.63965776668503,
-      "rmse": 31.37810858358415,
-      "n": 102
+      "mae": 20.69759414767614,
+      "rmse": 31.335280414551587,
+      "n": 103
     },
     {
       "horizon_h": 48,
-      "mae": 29.627651178477702,
-      "rmse": 44.722904515922195,
-      "n": 124
+      "mae": 29.502108720105316,
+      "rmse": 44.5610875296562,
+      "n": 125
     },
     {
       "horizon_h": 72,
-      "mae": 36.932483527405545,
-      "rmse": 58.27873459485778,
-      "n": 147
+      "mae": 36.918484293450724,
+      "rmse": 58.1521573810905,
+      "n": 148
     }
   ],
   "error_baseline": [
@@ -196,7 +196,7 @@
     "Feature PSI drift: temperature_2m=3.869 (>0.25)",
     "Feature PSI drift: temperature_2m_fh1=3.868 (>0.25)",
     "Error drift at h=1.0: recent MAE 1.4 vs baseline 0.9",
-    "Error drift at h=6.0: recent MAE 10.1 vs baseline 4.4",
-    "Error drift at h=12.0: recent MAE 40.4 vs baseline 14.8"
+    "Error drift at h=6.0: recent MAE 9.9 vs baseline 4.4",
+    "Error drift at h=12.0: recent MAE 39.9 vs baseline 14.8"
   ]
 }
