@@ -1,21 +1,21 @@
 {
   "city": "Lahore",
-  "computed_at": "2026-09-11T11:12:28.786651+00:00",
+  "computed_at": "2026-09-11T16:25:39.410647+00:00",
   "feature_psi": {
     "pm10": 1.3350890786100664,
     "pm2_5": 1.3746184036960005,
-    "carbon_monoxide": 0.4487033036763837,
+    "carbon_monoxide": 0.47001425818405496,
     "nitrogen_dioxide": 0.10575623944480042,
     "sulphur_dioxide": 0.6526542595894232,
     "ozone": 0.5657470802750777,
     "us_aqi": 0.3395464292150702,
-    "temperature_2m": 3.895339896208021,
-    "relative_humidity_2m": 1.3316057821791325,
-    "dew_point_2m": 7.910223237914289,
-    "surface_pressure": 5.506132711845561,
+    "temperature_2m": 3.891727463796403,
+    "relative_humidity_2m": 1.3462030873722557,
+    "dew_point_2m": 7.935566784222897,
+    "surface_pressure": 4.469111929882425,
     "precipitation": 0.0,
-    "wind_speed_10m": 0.2342146826330902,
-    "wind_direction_10m": 0.5369112432485136,
+    "wind_speed_10m": 0.23317699477742654,
+    "wind_direction_10m": 0.5273016286189143,
     "pm10_isna": 0.0,
     "pm2_5_isna": 0.0,
     "carbon_monoxide_isna": 0.0,
@@ -67,42 +67,42 @@
     "us_aqi_diff_1h": 0.07194266621101186,
     "us_aqi_pct_change_1h": 0.1231618933730297,
     "us_aqi_diff_24h": 0.19170870853082625,
-    "temp_humidity": 5.463215413716707,
-    "wind_u": 0.22415975473801897,
-    "wind_v": 0.5409401084015529,
-    "temperature_2m_fh1": 3.895247885867313,
-    "relative_humidity_2m_fh1": 1.3310437350621522,
+    "temp_humidity": 5.518209460232495,
+    "wind_u": 0.23178778067922842,
+    "wind_v": 0.48841107939833533,
+    "temperature_2m_fh1": 3.891533188378312,
+    "relative_humidity_2m_fh1": 1.3452649956865197,
     "precipitation_fh1": 0.0,
-    "wind_speed_10m_fh1": 0.23249193673162516,
-    "temperature_2m_fh6": 3.8935717663821334,
-    "relative_humidity_2m_fh6": 1.3279211121368668,
+    "wind_speed_10m_fh1": 0.23204206457686344,
+    "temperature_2m_fh6": 3.8894529462526775,
+    "relative_humidity_2m_fh6": 1.3422615917987537,
     "precipitation_fh6": 0.0,
-    "wind_speed_10m_fh6": 0.2221997468206905,
-    "temperature_2m_fh12": 3.8854077283617703,
-    "relative_humidity_2m_fh12": 1.3151795850323347,
+    "wind_speed_10m_fh6": 0.2249131147178172,
+    "temperature_2m_fh12": 3.8823957025490228,
+    "relative_humidity_2m_fh12": 1.3289969229383003,
     "precipitation_fh12": 0.0,
-    "wind_speed_10m_fh12": 0.21444489459332572,
-    "temperature_2m_fh24": 3.871467730976677,
-    "relative_humidity_2m_fh24": 1.2986111562283642,
+    "wind_speed_10m_fh12": 0.21906588622733686,
+    "temperature_2m_fh24": 3.870343692018375,
+    "relative_humidity_2m_fh24": 1.3123993836593442,
     "precipitation_fh24": 0.0,
-    "wind_speed_10m_fh24": 0.21741184914951978,
-    "temperature_2m_fh48": 3.8636238986182394,
-    "relative_humidity_2m_fh48": 1.2806049126209025,
+    "wind_speed_10m_fh24": 0.22198130880189695,
+    "temperature_2m_fh48": 3.8640865531580375,
+    "relative_humidity_2m_fh48": 1.2893926201366477,
     "precipitation_fh48": 0.0,
-    "wind_speed_10m_fh48": 0.21458582828824574,
-    "temperature_2m_fh72": 3.8704214754044894,
-    "relative_humidity_2m_fh72": 1.2996083187417757,
+    "wind_speed_10m_fh48": 0.21693660078133503,
+    "temperature_2m_fh72": 3.870041235121367,
+    "relative_humidity_2m_fh72": 1.3037852287621872,
     "precipitation_fh72": 0.0,
-    "wind_speed_10m_fh72": 0.22558232536483724
+    "wind_speed_10m_fh72": 0.23500067430184635
   },
   "top_shifted_features": [
     "month",
     "month_sin",
     "month_cos",
     "dew_point_2m",
-    "surface_pressure",
     "temp_humidity",
     "day",
+    "surface_pressure",
     "temperature_2m",
     "temperature_2m_fh1",
     "temperature_2m_fh6"
@@ -110,39 +110,39 @@
   "error_rolling": [
     {
       "horizon_h": 1,
-      "mae": 0.8582458815649407,
-      "rmse": 1.02018568252192,
-      "n": 67
+      "mae": 0.8465230985041996,
+      "rmse": 1.012683637636818,
+      "n": 68
     },
     {
       "horizon_h": 6,
-      "mae": 3.8218180077042954,
-      "rmse": 4.7340700956551105,
-      "n": 67
+      "mae": 3.780643788850515,
+      "rmse": 4.700765805743233,
+      "n": 68
     },
     {
       "horizon_h": 12,
-      "mae": 21.526555845031236,
-      "rmse": 25.62423369642843,
-      "n": 67
+      "mae": 21.35739812210376,
+      "rmse": 25.464152369520832,
+      "n": 68
     },
     {
       "horizon_h": 24,
-      "mae": 15.439607700466121,
-      "rmse": 18.463726318973574,
-      "n": 73
+      "mae": 15.366254972256066,
+      "rmse": 18.375439354234487,
+      "n": 74
     },
     {
       "horizon_h": 48,
-      "mae": 15.502222823920519,
-      "rmse": 19.545574138296082,
-      "n": 78
+      "mae": 16.00132459441056,
+      "rmse": 20.381097644962495,
+      "n": 79
     },
     {
       "horizon_h": 72,
-      "mae": 20.0796371774474,
-      "rmse": 25.232012043684456,
-      "n": 80
+      "mae": 20.41502776145198,
+      "rmse": 25.619380442345964,
+      "n": 81
     }
   ],
   "error_baseline": [
@@ -155,7 +155,7 @@
     {
       "horizon_h": 6,
       "mae": 5.800705638237204,
-      "rmse": 7.4801571677021,
+      "rmse": 7.480157167702101,
       "n": 456
     },
     {
@@ -188,12 +188,12 @@
     "Feature PSI drift: month=11.148 (>0.25)",
     "Feature PSI drift: month_sin=10.431 (>0.25)",
     "Feature PSI drift: month_cos=10.428 (>0.25)",
-    "Feature PSI drift: dew_point_2m=7.910 (>0.25)",
-    "Feature PSI drift: surface_pressure=5.506 (>0.25)",
-    "Feature PSI drift: temp_humidity=5.463 (>0.25)",
+    "Feature PSI drift: dew_point_2m=7.936 (>0.25)",
+    "Feature PSI drift: temp_humidity=5.518 (>0.25)",
     "Feature PSI drift: day=4.972 (>0.25)",
-    "Feature PSI drift: temperature_2m=3.895 (>0.25)",
-    "Feature PSI drift: temperature_2m_fh1=3.895 (>0.25)",
-    "Feature PSI drift: temperature_2m_fh6=3.894 (>0.25)"
+    "Feature PSI drift: surface_pressure=4.469 (>0.25)",
+    "Feature PSI drift: temperature_2m=3.892 (>0.25)",
+    "Feature PSI drift: temperature_2m_fh1=3.892 (>0.25)",
+    "Feature PSI drift: temperature_2m_fh6=3.889 (>0.25)"
   ]
 }
