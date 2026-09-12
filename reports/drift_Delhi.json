@@ -1,10 +1,10 @@
 {
   "city": "Delhi",
-  "computed_at": "2026-09-12T14:05:29.343518+00:00",
+  "computed_at": "2026-09-12T17:06:02.273462+00:00",
   "feature_psi": {
     "pm10": 1.9871500363117787,
     "pm2_5": 1.8796634603089561,
-    "carbon_monoxide": 0.053003440485353055,
+    "carbon_monoxide": 0.061311371539173216,
     "nitrogen_dioxide": 0.037997988135174424,
     "sulphur_dioxide": 0.16882214187104683,
     "ozone": 0.049079657033173296,
@@ -110,39 +110,39 @@
   "error_rolling": [
     {
       "horizon_h": 1,
-      "mae": 0.9575097557100847,
-      "rmse": 1.2901128390550805,
-      "n": 70
+      "mae": 0.9842821911422325,
+      "rmse": 1.3251497901974805,
+      "n": 71
     },
     {
       "horizon_h": 6,
-      "mae": 8.329139705712041,
-      "rmse": 11.566356248698561,
-      "n": 70
+      "mae": 8.626412949248007,
+      "rmse": 12.004161717262637,
+      "n": 71
     },
     {
       "horizon_h": 12,
-      "mae": 17.690257032914026,
-      "rmse": 27.855440529718877,
-      "n": 70
+      "mae": 17.964987783251555,
+      "rmse": 28.00863613070494,
+      "n": 71
     },
     {
       "horizon_h": 24,
-      "mae": 18.54260905097934,
-      "rmse": 22.55067016958731,
-      "n": 74
+      "mae": 18.567343758656875,
+      "rmse": 22.52331778911911,
+      "n": 75
     },
     {
       "horizon_h": 48,
-      "mae": 39.095972109348146,
-      "rmse": 48.776675059745045,
-      "n": 80
+      "mae": 39.16922148075338,
+      "rmse": 48.7321665575809,
+      "n": 81
     },
     {
       "horizon_h": 72,
-      "mae": 53.88430410766286,
-      "rmse": 67.35732175390892,
-      "n": 85
+      "mae": 53.791337965931056,
+      "rmse": 67.14714557091852,
+      "n": 86
     }
   ],
   "error_baseline": [
@@ -179,7 +179,7 @@
     {
       "horizon_h": 72,
       "mae": 35.05289723626084,
-      "rmse": 47.34929648187716,
+      "rmse": 47.34929648187717,
       "n": 450
     }
   ],
@@ -195,8 +195,8 @@
     "Feature PSI drift: temperature_2m_fh12=4.052 (>0.25)",
     "Feature PSI drift: temperature_2m_fh24=4.050 (>0.25)",
     "Feature PSI drift: temperature_2m_fh72=4.029 (>0.25)",
-    "Error drift at h=6.0: recent MAE 8.3 vs baseline 5.1",
-    "Error drift at h=48.0: recent MAE 39.1 vs baseline 25.0",
-    "Error drift at h=72.0: recent MAE 53.9 vs baseline 35.1"
+    "Error drift at h=6.0: recent MAE 8.6 vs baseline 5.1",
+    "Error drift at h=48.0: recent MAE 39.2 vs baseline 25.0",
+    "Error drift at h=72.0: recent MAE 53.8 vs baseline 35.1"
   ]
 }
