@@ -1,42 +1,42 @@
 {
-  "issued_at": "2026-09-16T22:10:17.768406+00:00",
+  "issued_at": "2026-09-17T00:32:10.456969+00:00",
   "count": 3,
   "alerts": [
     {
-      "issued_at": "2026-09-16T22:10:17.767569+00:00",
+      "issued_at": "2026-09-17T00:32:10.456227+00:00",
       "city": "Delhi",
       "level": "unhealthy",
-      "aqi": 151.17864720053535,
-      "timestamp": "2026-09-16T00:00:00+00:00",
+      "aqi": 162.64884071973094,
+      "timestamp": "2026-09-17T00:00:00+00:00",
       "category": "Unhealthy",
       "color": "#FF0000",
-      "message": "AQI in Delhi predicted to reach 151 (Unhealthy) at 2026-09-16 00:00Z.",
+      "message": "AQI in Delhi predicted to reach 163 (Unhealthy) at 2026-09-17 00:00Z.",
       "extra": {
         "horizon_h": 1
       }
     },
     {
-      "issued_at": "2026-09-16T22:10:17.767569+00:00",
+      "issued_at": "2026-09-17T00:32:10.456227+00:00",
       "city": "Delhi",
       "level": "unhealthy",
-      "aqi": 157.6032774169893,
-      "timestamp": "2026-09-16T05:00:00+00:00",
+      "aqi": 170.1045404445437,
+      "timestamp": "2026-09-17T05:00:00+00:00",
       "category": "Unhealthy",
       "color": "#FF0000",
-      "message": "AQI in Delhi predicted to reach 158 (Unhealthy) at 2026-09-16 05:00Z.",
+      "message": "AQI in Delhi predicted to reach 170 (Unhealthy) at 2026-09-17 05:00Z.",
       "extra": {
         "horizon_h": 6
       }
     },
     {
-      "issued_at": "2026-09-16T22:10:17.767569+00:00",
+      "issued_at": "2026-09-17T00:32:10.456227+00:00",
       "city": "Delhi",
       "level": "unhealthy",
-      "aqi": 168.1073364487451,
-      "timestamp": "2026-09-16T11:00:00+00:00",
+      "aqi": 177.01444865170416,
+      "timestamp": "2026-09-17T11:00:00+00:00",
       "category": "Unhealthy",
       "color": "#FF0000",
-      "message": "AQI in Delhi predicted to reach 168 (Unhealthy) at 2026-09-16 11:00Z.",
+      "message": "AQI in Delhi predicted to reach 177 (Unhealthy) at 2026-09-17 11:00Z.",
       "extra": {
         "horizon_h": 12
       }
