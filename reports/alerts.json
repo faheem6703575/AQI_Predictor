@@ -1,12 +1,12 @@
 {
-  "issued_at": "2026-09-17T06:08:40.850517+00:00",
-  "count": 3,
+  "issued_at": "2026-09-17T11:40:20.023533+00:00",
+  "count": 4,
   "alerts": [
     {
-      "issued_at": "2026-09-17T06:08:40.849769+00:00",
+      "issued_at": "2026-09-17T11:40:20.022779+00:00",
       "city": "Delhi",
       "level": "unhealthy",
-      "aqi": 162.64884071973094,
+      "aqi": 162.89838433246626,
       "timestamp": "2026-09-17T00:00:00+00:00",
       "category": "Unhealthy",
       "color": "#FF0000",
@@ -16,29 +16,42 @@
       }
     },
     {
-      "issued_at": "2026-09-17T06:08:40.849769+00:00",
+      "issued_at": "2026-09-17T11:40:20.022779+00:00",
       "city": "Delhi",
       "level": "unhealthy",
-      "aqi": 170.1045404445437,
+      "aqi": 161.24804901566606,
       "timestamp": "2026-09-17T05:00:00+00:00",
       "category": "Unhealthy",
       "color": "#FF0000",
-      "message": "AQI in Delhi predicted to reach 170 (Unhealthy) at 2026-09-17 05:00Z.",
+      "message": "AQI in Delhi predicted to reach 161 (Unhealthy) at 2026-09-17 05:00Z.",
       "extra": {
         "horizon_h": 6
       }
     },
     {
-      "issued_at": "2026-09-17T06:08:40.849769+00:00",
+      "issued_at": "2026-09-17T11:40:20.022779+00:00",
       "city": "Delhi",
       "level": "unhealthy",
-      "aqi": 177.01444865170416,
+      "aqi": 163.00823314711636,
       "timestamp": "2026-09-17T11:00:00+00:00",
       "category": "Unhealthy",
       "color": "#FF0000",
-      "message": "AQI in Delhi predicted to reach 177 (Unhealthy) at 2026-09-17 11:00Z.",
+      "message": "AQI in Delhi predicted to reach 163 (Unhealthy) at 2026-09-17 11:00Z.",
       "extra": {
         "horizon_h": 12
+      }
+    },
+    {
+      "issued_at": "2026-09-17T11:40:20.022779+00:00",
+      "city": "Delhi",
+      "level": "unhealthy",
+      "aqi": 160.96673222282246,
+      "timestamp": "2026-09-18T23:00:00+00:00",
+      "category": "Unhealthy",
+      "color": "#FF0000",
+      "message": "AQI in Delhi predicted to reach 161 (Unhealthy) at 2026-09-18 23:00Z.",
+      "extra": {
+        "horizon_h": 48
       }
     }
   ]
