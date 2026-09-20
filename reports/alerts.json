@@ -1,12 +1,12 @@
 {
-  "issued_at": "2026-09-20T16:53:38.884451+00:00",
-  "count": 4,
+  "issued_at": "2026-09-20T19:29:57.571947+00:00",
+  "count": 5,
   "alerts": [
     {
-      "issued_at": "2026-09-20T16:53:38.883672+00:00",
+      "issued_at": "2026-09-20T19:29:57.571237+00:00",
       "city": "Delhi",
       "level": "unhealthy",
-      "aqi": 160.7721274035961,
+      "aqi": 160.7637539681411,
       "timestamp": "2026-09-20T00:00:00+00:00",
       "category": "Unhealthy",
       "color": "#FF0000",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "issued_at": "2026-09-20T16:53:38.883672+00:00",
+      "issued_at": "2026-09-20T19:29:57.571237+00:00",
       "city": "Delhi",
       "level": "unhealthy",
       "aqi": 161.95734904363775,
@@ -29,10 +29,10 @@
       }
     },
     {
-      "issued_at": "2026-09-20T16:53:38.883672+00:00",
+      "issued_at": "2026-09-20T19:29:57.571237+00:00",
       "city": "Delhi",
       "level": "unhealthy",
-      "aqi": 166.83514434838918,
+      "aqi": 167.02052689311188,
       "timestamp": "2026-09-20T11:00:00+00:00",
       "category": "Unhealthy",
       "color": "#FF0000",
@@ -42,14 +42,27 @@
       }
     },
     {
-      "issued_at": "2026-09-20T16:53:38.883672+00:00",
+      "issued_at": "2026-09-20T19:29:57.571237+00:00",
       "city": "Delhi",
       "level": "unhealthy",
-      "aqi": 156.20338029642522,
+      "aqi": 151.4354282811254,
+      "timestamp": "2026-09-21T23:00:00+00:00",
+      "category": "Unhealthy",
+      "color": "#FF0000",
+      "message": "AQI in Delhi predicted to reach 151 (Unhealthy) at 2026-09-21 23:00Z.",
+      "extra": {
+        "horizon_h": 48
+      }
+    },
+    {
+      "issued_at": "2026-09-20T19:29:57.571237+00:00",
+      "city": "Delhi",
+      "level": "unhealthy",
+      "aqi": 161.6123361882536,
       "timestamp": "2026-09-22T23:00:00+00:00",
       "category": "Unhealthy",
       "color": "#FF0000",
-      "message": "AQI in Delhi predicted to reach 156 (Unhealthy) at 2026-09-22 23:00Z.",
+      "message": "AQI in Delhi predicted to reach 162 (Unhealthy) at 2026-09-22 23:00Z.",
       "extra": {
         "horizon_h": 72
       }
