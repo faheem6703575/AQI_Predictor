@@ -1,9 +1,9 @@
 {
-  "issued_at": "2026-10-02T12:34:58.763493+00:00",
+  "issued_at": "2026-10-02T18:34:53.193405+00:00",
   "count": 4,
   "alerts": [
     {
-      "issued_at": "2026-10-02T12:34:58.762691+00:00",
+      "issued_at": "2026-10-02T18:34:53.192434+00:00",
       "city": "Delhi",
       "level": "unhealthy",
       "aqi": 162.12793335972606,
@@ -16,7 +16,7 @@
       }
     },
     {
-      "issued_at": "2026-10-02T12:34:58.762691+00:00",
+      "issued_at": "2026-10-02T18:34:53.192434+00:00",
       "city": "Delhi",
       "level": "unhealthy",
       "aqi": 158.42723808569522,
@@ -29,7 +29,7 @@
       }
     },
     {
-      "issued_at": "2026-10-02T12:34:58.762691+00:00",
+      "issued_at": "2026-10-02T18:34:53.192434+00:00",
       "city": "Delhi",
       "level": "unhealthy",
       "aqi": 155.17441655733242,
@@ -42,14 +42,14 @@
       }
     },
     {
-      "issued_at": "2026-10-02T12:34:58.762691+00:00",
+      "issued_at": "2026-10-02T18:34:53.192434+00:00",
       "city": "Delhi",
       "level": "hazardous",
-      "aqi": 310.8725292027681,
+      "aqi": 309.90734416448583,
       "timestamp": "2026-10-04T23:00:00+00:00",
       "category": "Hazardous",
       "color": "#7E0023",
-      "message": "AQI in Delhi predicted to reach 311 (Hazardous) at 2026-10-04 23:00Z.",
+      "message": "AQI in Delhi predicted to reach 310 (Hazardous) at 2026-10-04 23:00Z.",
       "extra": {
         "horizon_h": 72
       }
