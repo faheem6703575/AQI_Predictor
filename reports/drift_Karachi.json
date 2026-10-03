@@ -1,6 +1,6 @@
 {
   "city": "Karachi",
-  "computed_at": "2026-10-03T13:31:49.567620+00:00",
+  "computed_at": "2026-10-03T18:06:59.134690+00:00",
   "feature_psi": {
     "pm10": 0.4036173242770066,
     "pm2_5": 0.2078122959590789,
@@ -110,39 +110,39 @@
   "error_rolling": [
     {
       "horizon_h": 1,
-      "mae": 0.5546543575355799,
-      "rmse": 0.655742190737167,
-      "n": 56
+      "mae": 0.5534876788598377,
+      "rmse": 0.6531727152421379,
+      "n": 57
     },
     {
       "horizon_h": 6,
-      "mae": 2.553344250602735,
-      "rmse": 2.8196650313127845,
-      "n": 56
+      "mae": 2.5257502927848177,
+      "rmse": 2.7978374097694285,
+      "n": 57
     },
     {
       "horizon_h": 12,
-      "mae": 4.033788870982957,
-      "rmse": 5.739959144426534,
-      "n": 56
+      "mae": 3.965206024047861,
+      "rmse": 5.689409755250822,
+      "n": 57
     },
     {
       "horizon_h": 24,
-      "mae": 8.892892660770748,
-      "rmse": 10.424606391968286,
-      "n": 61
+      "mae": 8.973607096429996,
+      "rmse": 10.489741032241414,
+      "n": 62
     },
     {
       "horizon_h": 48,
-      "mae": 12.15956201164377,
-      "rmse": 14.302663802499454,
-      "n": 67
+      "mae": 12.328514851979756,
+      "rmse": 14.483854883406801,
+      "n": 68
     },
     {
       "horizon_h": 72,
-      "mae": 13.608476738870761,
-      "rmse": 15.71701710382185,
-      "n": 74
+      "mae": 13.772079807309762,
+      "rmse": 15.89529483457359,
+      "n": 75
     }
   ],
   "error_baseline": [
@@ -161,7 +161,7 @@
     {
       "horizon_h": 12,
       "mae": 3.6291008035667454,
-      "rmse": 4.41858011494664,
+      "rmse": 4.418580114946641,
       "n": 590
     },
     {
@@ -179,7 +179,7 @@
     {
       "horizon_h": 72,
       "mae": 6.72492117487729,
-      "rmse": 7.87182757215197,
+      "rmse": 7.871827572151969,
       "n": 572
     }
   ],
@@ -195,9 +195,9 @@
     "Feature PSI drift: temp_humidity=2.918 (>0.25)",
     "Feature PSI drift: temperature_2m_fh72=2.803 (>0.25)",
     "Feature PSI drift: temperature_2m_fh48=2.738 (>0.25)",
-    "Error drift at h=6.0: recent MAE 2.6 vs baseline 1.5",
-    "Error drift at h=24.0: recent MAE 8.9 vs baseline 4.4",
-    "Error drift at h=48.0: recent MAE 12.2 vs baseline 5.5",
-    "Error drift at h=72.0: recent MAE 13.6 vs baseline 6.7"
+    "Error drift at h=6.0: recent MAE 2.5 vs baseline 1.5",
+    "Error drift at h=24.0: recent MAE 9.0 vs baseline 4.4",
+    "Error drift at h=48.0: recent MAE 12.3 vs baseline 5.5",
+    "Error drift at h=72.0: recent MAE 13.8 vs baseline 6.7"
   ]
 }
