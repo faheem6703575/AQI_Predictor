@@ -1,9 +1,9 @@
 {
-  "issued_at": "2026-10-20T11:33:08.825464+00:00",
+  "issued_at": "2026-10-20T16:59:38.467796+00:00",
   "count": 6,
   "alerts": [
     {
-      "issued_at": "2026-10-20T11:33:08.824506+00:00",
+      "issued_at": "2026-10-20T16:59:38.467049+00:00",
       "city": "Delhi",
       "level": "unhealthy",
       "aqi": 179.82765825293353,
@@ -16,7 +16,7 @@
       }
     },
     {
-      "issued_at": "2026-10-20T11:33:08.824506+00:00",
+      "issued_at": "2026-10-20T16:59:38.467049+00:00",
       "city": "Delhi",
       "level": "unhealthy",
       "aqi": 180.9756566038674,
@@ -29,7 +29,7 @@
       }
     },
     {
-      "issued_at": "2026-10-20T11:33:08.824506+00:00",
+      "issued_at": "2026-10-20T16:59:38.467049+00:00",
       "city": "Delhi",
       "level": "unhealthy",
       "aqi": 174.26053625272976,
@@ -42,10 +42,10 @@
       }
     },
     {
-      "issued_at": "2026-10-20T11:33:08.824506+00:00",
+      "issued_at": "2026-10-20T16:59:38.467049+00:00",
       "city": "Delhi",
       "level": "unhealthy",
-      "aqi": 172.660825314085,
+      "aqi": 172.56087094744336,
       "timestamp": "2026-10-20T23:00:00+00:00",
       "category": "Unhealthy",
       "color": "#FF0000",
@@ -55,23 +55,23 @@
       }
     },
     {
-      "issued_at": "2026-10-20T11:33:08.824506+00:00",
+      "issued_at": "2026-10-20T16:59:38.467049+00:00",
       "city": "Delhi",
       "level": "unhealthy",
-      "aqi": 163.8373313984736,
+      "aqi": 163.41723835272958,
       "timestamp": "2026-10-21T23:00:00+00:00",
       "category": "Unhealthy",
       "color": "#FF0000",
-      "message": "AQI in Delhi predicted to reach 164 (Unhealthy) at 2026-10-21 23:00Z.",
+      "message": "AQI in Delhi predicted to reach 163 (Unhealthy) at 2026-10-21 23:00Z.",
       "extra": {
         "horizon_h": 48
       }
     },
     {
-      "issued_at": "2026-10-20T11:33:08.824506+00:00",
+      "issued_at": "2026-10-20T16:59:38.467049+00:00",
       "city": "Delhi",
       "level": "unhealthy",
-      "aqi": 172.1773966779631,
+      "aqi": 172.26274868957927,
       "timestamp": "2026-10-22T23:00:00+00:00",
       "category": "Unhealthy",
       "color": "#FF0000",
