@@ -1,21 +1,21 @@
 {
   "city": "Lahore",
-  "computed_at": "2026-10-26T13:01:26.752674+00:00",
+  "computed_at": "2026-10-26T19:28:55.061969+00:00",
   "feature_psi": {
     "pm10": 0.22055162031009043,
     "pm2_5": 0.2710054762314859,
-    "carbon_monoxide": 0.638996486216727,
+    "carbon_monoxide": 0.620656396929768,
     "nitrogen_dioxide": 0.18105274603385402,
     "sulphur_dioxide": 0.6741107439118033,
     "ozone": 0.1033281469341881,
     "us_aqi": 2.5947322139059534,
-    "temperature_2m": 4.173440192204014,
-    "relative_humidity_2m": 0.48375863360832705,
-    "dew_point_2m": 7.162106814397513,
-    "surface_pressure": 7.7721830508993595,
+    "temperature_2m": 4.198505355850083,
+    "relative_humidity_2m": 0.48447254633721415,
+    "dew_point_2m": 7.1803448668211995,
+    "surface_pressure": 7.792150599123424,
     "precipitation": 0.0,
-    "wind_speed_10m": 0.31006490663070485,
-    "wind_direction_10m": 0.6215541846340695,
+    "wind_speed_10m": 0.31578650280409276,
+    "wind_direction_10m": 0.6316675981163326,
     "pm10_isna": 0.0,
     "pm2_5_isna": 0.0,
     "carbon_monoxide_isna": 0.0,
@@ -67,33 +67,33 @@
     "us_aqi_diff_1h": 0.4793517049221736,
     "us_aqi_pct_change_1h": 0.34405735008847704,
     "us_aqi_diff_24h": 0.3703723296267309,
-    "temp_humidity": 5.684756551739298,
-    "wind_u": 0.43893183318669865,
-    "wind_v": 0.42571462822060624,
-    "temperature_2m_fh1": 4.169907947512765,
-    "relative_humidity_2m_fh1": 0.49514120164665243,
+    "temp_humidity": 5.681393024478151,
+    "wind_u": 0.45954609872099245,
+    "wind_v": 0.43832776798128903,
+    "temperature_2m_fh1": 4.194987904685052,
+    "relative_humidity_2m_fh1": 0.4958571639139948,
     "precipitation_fh1": 0.0,
-    "wind_speed_10m_fh1": 0.3175718970436106,
-    "temperature_2m_fh6": 4.154160987748217,
-    "relative_humidity_2m_fh6": 0.4988275214619624,
+    "wind_speed_10m_fh1": 0.3233438167178456,
+    "temperature_2m_fh6": 4.1792530815349895,
+    "relative_humidity_2m_fh6": 0.500184938444493,
     "precipitation_fh6": 0.0,
-    "wind_speed_10m_fh6": 0.354182575274367,
-    "temperature_2m_fh12": 4.163438710733735,
-    "relative_humidity_2m_fh12": 0.49447642113941187,
+    "wind_speed_10m_fh6": 0.3607937715446498,
+    "temperature_2m_fh12": 4.186773090866515,
+    "relative_humidity_2m_fh12": 0.49546139940101075,
     "precipitation_fh12": 0.0,
-    "wind_speed_10m_fh12": 0.42827070037712944,
-    "temperature_2m_fh24": 4.124840458643511,
-    "relative_humidity_2m_fh24": 0.5855702592851928,
+    "wind_speed_10m_fh12": 0.43499976617269975,
+    "temperature_2m_fh24": 4.148107559676384,
+    "relative_humidity_2m_fh24": 0.587389462707925,
     "precipitation_fh24": 0.0,
-    "wind_speed_10m_fh24": 0.4739757352508135,
-    "temperature_2m_fh48": 4.106659227944578,
-    "relative_humidity_2m_fh48": 0.6639559516303238,
+    "wind_speed_10m_fh24": 0.48152342962160777,
+    "temperature_2m_fh48": 4.130662525189728,
+    "relative_humidity_2m_fh48": 0.6684504014669463,
     "precipitation_fh48": 0.0,
-    "wind_speed_10m_fh48": 0.47666129593724216,
-    "temperature_2m_fh72": 4.0780461891224755,
-    "relative_humidity_2m_fh72": 0.6388311766149859,
+    "wind_speed_10m_fh48": 0.4785827707658468,
+    "temperature_2m_fh72": 4.101253723034327,
+    "relative_humidity_2m_fh72": 0.6439598132119364,
     "precipitation_fh72": 0.0,
-    "wind_speed_10m_fh72": 0.5265682991856795
+    "wind_speed_10m_fh72": 0.5213983172617337
   },
   "top_shifted_features": [
     "month_sin",
@@ -110,46 +110,46 @@
   "error_rolling": [
     {
       "horizon_h": 1,
-      "mae": 1.245725042641219,
-      "rmse": 2.458584266854078,
-      "n": 64
+      "mae": 1.2546241770031483,
+      "rmse": 2.450068551462231,
+      "n": 65
     },
     {
       "horizon_h": 6,
-      "mae": 5.0217483738015725,
-      "rmse": 5.657758481259211,
-      "n": 64
+      "mae": 5.070482156427131,
+      "rmse": 5.7052226857339186,
+      "n": 65
     },
     {
       "horizon_h": 12,
-      "mae": 6.34007816986052,
-      "rmse": 8.38518858028206,
-      "n": 64
+      "mae": 6.267645777785911,
+      "rmse": 8.322899029476313,
+      "n": 65
     },
     {
       "horizon_h": 24,
-      "mae": 12.964079969273596,
-      "rmse": 17.119318482881265,
-      "n": 69
+      "mae": 12.856941863078092,
+      "rmse": 17.009141790445337,
+      "n": 70
     },
     {
       "horizon_h": 48,
-      "mae": 15.613797422825117,
-      "rmse": 21.841342290021544,
-      "n": 73
+      "mae": 15.539819697921137,
+      "rmse": 21.725261598246366,
+      "n": 74
     },
     {
       "horizon_h": 72,
-      "mae": 15.143292727985953,
-      "rmse": 19.323488617563243,
-      "n": 76
+      "mae": 15.004550442166625,
+      "rmse": 19.204328840470534,
+      "n": 77
     }
   ],
   "error_baseline": [
     {
       "horizon_h": 1,
       "mae": 0.9608587656328653,
-      "rmse": 1.6414642911733535,
+      "rmse": 1.6414642911733537,
       "n": 686
     },
     {
@@ -188,12 +188,12 @@
     "Feature PSI drift: month_sin=12.719 (>0.25)",
     "Feature PSI drift: month=12.589 (>0.25)",
     "Feature PSI drift: month_cos=11.156 (>0.25)",
-    "Feature PSI drift: surface_pressure=7.772 (>0.25)",
-    "Feature PSI drift: dew_point_2m=7.162 (>0.25)",
-    "Feature PSI drift: temp_humidity=5.685 (>0.25)",
+    "Feature PSI drift: surface_pressure=7.792 (>0.25)",
+    "Feature PSI drift: dew_point_2m=7.180 (>0.25)",
+    "Feature PSI drift: temp_humidity=5.681 (>0.25)",
     "Feature PSI drift: us_aqi_rstd_24h=4.976 (>0.25)",
     "Feature PSI drift: day=4.652 (>0.25)",
-    "Feature PSI drift: temperature_2m=4.173 (>0.25)",
-    "Feature PSI drift: temperature_2m_fh1=4.170 (>0.25)"
+    "Feature PSI drift: temperature_2m=4.199 (>0.25)",
+    "Feature PSI drift: temperature_2m_fh1=4.195 (>0.25)"
   ]
 }
