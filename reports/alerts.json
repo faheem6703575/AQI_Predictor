@@ -1,12 +1,12 @@
 {
-  "issued_at": "2026-11-01T15:11:42.456341+00:00",
+  "issued_at": "2026-11-01T19:48:29.443076+00:00",
   "count": 6,
   "alerts": [
     {
-      "issued_at": "2026-11-01T15:11:42.455516+00:00",
+      "issued_at": "2026-11-01T19:48:29.442210+00:00",
       "city": "Delhi",
       "level": "unhealthy",
-      "aqi": 153.6919861986197,
+      "aqi": 153.6551478123069,
       "timestamp": "2026-11-01T00:00:00+00:00",
       "category": "Unhealthy",
       "color": "#FF0000",
@@ -16,10 +16,10 @@
       }
     },
     {
-      "issued_at": "2026-11-01T15:11:42.455516+00:00",
+      "issued_at": "2026-11-01T19:48:29.442210+00:00",
       "city": "Delhi",
       "level": "unhealthy",
-      "aqi": 156.54435686913737,
+      "aqi": 156.5088352087432,
       "timestamp": "2026-11-01T05:00:00+00:00",
       "category": "Unhealthy",
       "color": "#FF0000",
@@ -29,10 +29,10 @@
       }
     },
     {
-      "issued_at": "2026-11-01T15:11:42.455516+00:00",
+      "issued_at": "2026-11-01T19:48:29.442210+00:00",
       "city": "Delhi",
       "level": "unhealthy",
-      "aqi": 154.99273643795826,
+      "aqi": 154.95440360706755,
       "timestamp": "2026-11-01T11:00:00+00:00",
       "category": "Unhealthy",
       "color": "#FF0000",
@@ -42,40 +42,40 @@
       }
     },
     {
-      "issued_at": "2026-11-01T15:11:42.455516+00:00",
+      "issued_at": "2026-11-01T19:48:29.442210+00:00",
       "city": "Delhi",
       "level": "unhealthy",
-      "aqi": 151.99594037363244,
+      "aqi": 153.56877154118746,
       "timestamp": "2026-11-01T23:00:00+00:00",
       "category": "Unhealthy",
       "color": "#FF0000",
-      "message": "AQI in Delhi predicted to reach 152 (Unhealthy) at 2026-11-01 23:00Z.",
+      "message": "AQI in Delhi predicted to reach 154 (Unhealthy) at 2026-11-01 23:00Z.",
       "extra": {
         "horizon_h": 24
       }
     },
     {
-      "issued_at": "2026-11-01T15:11:42.455516+00:00",
+      "issued_at": "2026-11-01T19:48:29.442210+00:00",
       "city": "Delhi",
       "level": "unhealthy",
-      "aqi": 152.52567362999912,
+      "aqi": 151.09548398174738,
       "timestamp": "2026-11-02T23:00:00+00:00",
       "category": "Unhealthy",
       "color": "#FF0000",
-      "message": "AQI in Delhi predicted to reach 153 (Unhealthy) at 2026-11-02 23:00Z.",
+      "message": "AQI in Delhi predicted to reach 151 (Unhealthy) at 2026-11-02 23:00Z.",
       "extra": {
         "horizon_h": 48
       }
     },
     {
-      "issued_at": "2026-11-01T15:11:42.455516+00:00",
+      "issued_at": "2026-11-01T19:48:29.442210+00:00",
       "city": "Delhi",
       "level": "unhealthy",
-      "aqi": 170.29090881453405,
+      "aqi": 168.97222489680942,
       "timestamp": "2026-11-03T23:00:00+00:00",
       "category": "Unhealthy",
       "color": "#FF0000",
-      "message": "AQI in Delhi predicted to reach 170 (Unhealthy) at 2026-11-03 23:00Z.",
+      "message": "AQI in Delhi predicted to reach 169 (Unhealthy) at 2026-11-03 23:00Z.",
       "extra": {
         "horizon_h": 72
       }
