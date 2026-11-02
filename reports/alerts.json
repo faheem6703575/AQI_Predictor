@@ -1,9 +1,9 @@
 {
-  "issued_at": "2026-11-02T15:56:08.401201+00:00",
+  "issued_at": "2026-11-02T23:38:01.878498+00:00",
   "count": 6,
   "alerts": [
     {
-      "issued_at": "2026-11-02T15:56:08.400541+00:00",
+      "issued_at": "2026-11-02T23:38:01.878028+00:00",
       "city": "Delhi",
       "level": "unhealthy",
       "aqi": 175.26622227570323,
@@ -16,7 +16,7 @@
       }
     },
     {
-      "issued_at": "2026-11-02T15:56:08.400541+00:00",
+      "issued_at": "2026-11-02T23:38:01.878028+00:00",
       "city": "Delhi",
       "level": "unhealthy",
       "aqi": 177.82210817629453,
@@ -29,7 +29,7 @@
       }
     },
     {
-      "issued_at": "2026-11-02T15:56:08.400541+00:00",
+      "issued_at": "2026-11-02T23:38:01.878028+00:00",
       "city": "Delhi",
       "level": "unhealthy",
       "aqi": 187.23482592602753,
@@ -42,10 +42,10 @@
       }
     },
     {
-      "issued_at": "2026-11-02T15:56:08.400541+00:00",
+      "issued_at": "2026-11-02T23:38:01.878028+00:00",
       "city": "Delhi",
       "level": "unhealthy",
-      "aqi": 170.1506138660759,
+      "aqi": 169.82821564442392,
       "timestamp": "2026-11-02T23:00:00+00:00",
       "category": "Unhealthy",
       "color": "#FF0000",
@@ -55,20 +55,20 @@
       }
     },
     {
-      "issued_at": "2026-11-02T15:56:08.400541+00:00",
+      "issued_at": "2026-11-02T23:38:01.878028+00:00",
       "city": "Delhi",
       "level": "unhealthy",
-      "aqi": 181.20105919144285,
+      "aqi": 179.18981003893222,
       "timestamp": "2026-11-03T23:00:00+00:00",
       "category": "Unhealthy",
       "color": "#FF0000",
-      "message": "AQI in Delhi predicted to reach 181 (Unhealthy) at 2026-11-03 23:00Z.",
+      "message": "AQI in Delhi predicted to reach 179 (Unhealthy) at 2026-11-03 23:00Z.",
       "extra": {
         "horizon_h": 48
       }
     },
     {
-      "issued_at": "2026-11-02T15:56:08.400541+00:00",
+      "issued_at": "2026-11-02T23:38:01.878028+00:00",
       "city": "Delhi",
       "level": "very_unhealthy",
       "aqi": 213.9656041539933,
