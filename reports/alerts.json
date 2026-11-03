@@ -1,12 +1,12 @@
 {
-  "issued_at": "2026-11-03T15:17:51.073358+00:00",
+  "issued_at": "2026-11-03T21:31:02.254911+00:00",
   "count": 6,
   "alerts": [
     {
-      "issued_at": "2026-11-03T15:17:51.072479+00:00",
+      "issued_at": "2026-11-03T21:31:02.253807+00:00",
       "city": "Delhi",
       "level": "unhealthy",
-      "aqi": 183.4162162389355,
+      "aqi": 183.41868526633613,
       "timestamp": "2026-11-03T00:00:00+00:00",
       "category": "Unhealthy",
       "color": "#FF0000",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "issued_at": "2026-11-03T15:17:51.072479+00:00",
+      "issued_at": "2026-11-03T21:31:02.253807+00:00",
       "city": "Delhi",
       "level": "unhealthy",
       "aqi": 180.82476530621486,
@@ -29,7 +29,7 @@
       }
     },
     {
-      "issued_at": "2026-11-03T15:17:51.072479+00:00",
+      "issued_at": "2026-11-03T21:31:02.253807+00:00",
       "city": "Delhi",
       "level": "unhealthy",
       "aqi": 180.4342114157083,
@@ -42,10 +42,10 @@
       }
     },
     {
-      "issued_at": "2026-11-03T15:17:51.072479+00:00",
+      "issued_at": "2026-11-03T21:31:02.253807+00:00",
       "city": "Delhi",
       "level": "unhealthy",
-      "aqi": 177.59270695969013,
+      "aqi": 177.8734273348689,
       "timestamp": "2026-11-03T23:00:00+00:00",
       "category": "Unhealthy",
       "color": "#FF0000",
@@ -55,20 +55,20 @@
       }
     },
     {
-      "issued_at": "2026-11-03T15:17:51.072479+00:00",
+      "issued_at": "2026-11-03T21:31:02.253807+00:00",
       "city": "Delhi",
       "level": "very_unhealthy",
-      "aqi": 212.1442345091754,
+      "aqi": 218.83924966083856,
       "timestamp": "2026-11-04T23:00:00+00:00",
       "category": "Very Unhealthy",
       "color": "#8F3F97",
-      "message": "AQI in Delhi predicted to reach 212 (Very Unhealthy) at 2026-11-04 23:00Z.",
+      "message": "AQI in Delhi predicted to reach 219 (Very Unhealthy) at 2026-11-04 23:00Z.",
       "extra": {
         "horizon_h": 48
       }
     },
     {
-      "issued_at": "2026-11-03T15:17:51.072479+00:00",
+      "issued_at": "2026-11-03T21:31:02.253807+00:00",
       "city": "Delhi",
       "level": "unhealthy",
       "aqi": 182.64558067234805,
