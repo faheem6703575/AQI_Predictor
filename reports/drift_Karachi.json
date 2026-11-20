@@ -1,6 +1,6 @@
 {
   "city": "Karachi",
-  "computed_at": "2026-11-19T21:30:09.096291+00:00",
+  "computed_at": "2026-11-20T03:12:05.996374+00:00",
   "feature_psi": {
     "pm10": 1.494403087089621,
     "pm2_5": 0.036336163846108285,
@@ -110,46 +110,46 @@
   "error_rolling": [
     {
       "horizon_h": 1,
-      "mae": 0.6338880576461432,
-      "rmse": 0.7574492532293535,
-      "n": 41
+      "mae": 0.6401483046166877,
+      "rmse": 0.7610642222610952,
+      "n": 42
     },
     {
       "horizon_h": 6,
-      "mae": 3.518011588994435,
-      "rmse": 4.179112714679524,
-      "n": 41
+      "mae": 3.649384755330241,
+      "rmse": 4.358101110363888,
+      "n": 42
     },
     {
       "horizon_h": 12,
-      "mae": 5.227219472620919,
-      "rmse": 7.2126700100096,
-      "n": 41
+      "mae": 5.17172346277627,
+      "rmse": 7.140288132110359,
+      "n": 42
     },
     {
       "horizon_h": 24,
-      "mae": 9.033833405519065,
-      "rmse": 10.654403372266637,
-      "n": 45
+      "mae": 9.35945431673124,
+      "rmse": 11.116799991081738,
+      "n": 46
     },
     {
       "horizon_h": 48,
-      "mae": 11.10564840499197,
-      "rmse": 13.668329455093016,
-      "n": 49
+      "mae": 10.921860678909011,
+      "rmse": 13.533669373081592,
+      "n": 50
     },
     {
       "horizon_h": 72,
-      "mae": 11.477997543436247,
-      "rmse": 15.004650370813915,
-      "n": 52
+      "mae": 11.272495469451936,
+      "rmse": 14.86264124515939,
+      "n": 53
     }
   ],
   "error_baseline": [
     {
       "horizon_h": 1,
       "mae": 0.5265917433357421,
-      "rmse": 0.6765616490632738,
+      "rmse": 0.6765616490632737,
       "n": 806
     },
     {
@@ -173,7 +173,7 @@
     {
       "horizon_h": 48,
       "mae": 6.9973892216307725,
-      "rmse": 9.500602026049592,
+      "rmse": 9.500602026049593,
       "n": 798
     },
     {
@@ -195,8 +195,8 @@
     "Feature PSI drift: wind_speed_10m_fh24=2.876 (>0.25)",
     "Feature PSI drift: wind_speed_10m_fh48=2.853 (>0.25)",
     "Feature PSI drift: wind_speed_10m_fh72=2.829 (>0.25)",
-    "Error drift at h=6.0: recent MAE 3.5 vs baseline 2.0",
-    "Error drift at h=24.0: recent MAE 9.0 vs baseline 5.5",
-    "Error drift at h=48.0: recent MAE 11.1 vs baseline 7.0"
+    "Error drift at h=6.0: recent MAE 3.6 vs baseline 2.0",
+    "Error drift at h=24.0: recent MAE 9.4 vs baseline 5.5",
+    "Error drift at h=48.0: recent MAE 10.9 vs baseline 7.0"
   ]
 }
