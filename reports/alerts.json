@@ -1,81 +1,81 @@
 {
-  "issued_at": "2026-11-21T23:12:15.077095+00:00",
+  "issued_at": "2026-11-22T03:10:42.470756+00:00",
   "count": 6,
   "alerts": [
     {
-      "issued_at": "2026-11-21T23:12:15.076198+00:00",
+      "issued_at": "2026-11-22T03:10:42.470119+00:00",
       "city": "Delhi",
       "level": "very_unhealthy",
-      "aqi": 224.59496463627835,
-      "timestamp": "2026-11-21T00:00:00+00:00",
+      "aqi": 224.76887775013435,
+      "timestamp": "2026-11-22T00:00:00+00:00",
       "category": "Very Unhealthy",
       "color": "#8F3F97",
-      "message": "AQI in Delhi predicted to reach 225 (Very Unhealthy) at 2026-11-21 00:00Z.",
+      "message": "AQI in Delhi predicted to reach 225 (Very Unhealthy) at 2026-11-22 00:00Z.",
       "extra": {
         "horizon_h": 1
       }
     },
     {
-      "issued_at": "2026-11-21T23:12:15.076198+00:00",
+      "issued_at": "2026-11-22T03:10:42.470119+00:00",
       "city": "Delhi",
       "level": "very_unhealthy",
-      "aqi": 215.09998486150772,
-      "timestamp": "2026-11-21T05:00:00+00:00",
+      "aqi": 221.33118813787536,
+      "timestamp": "2026-11-22T05:00:00+00:00",
       "category": "Very Unhealthy",
       "color": "#8F3F97",
-      "message": "AQI in Delhi predicted to reach 215 (Very Unhealthy) at 2026-11-21 05:00Z.",
+      "message": "AQI in Delhi predicted to reach 221 (Very Unhealthy) at 2026-11-22 05:00Z.",
       "extra": {
         "horizon_h": 6
       }
     },
     {
-      "issued_at": "2026-11-21T23:12:15.076198+00:00",
+      "issued_at": "2026-11-22T03:10:42.470119+00:00",
       "city": "Delhi",
       "level": "very_unhealthy",
-      "aqi": 212.62606362110722,
-      "timestamp": "2026-11-21T11:00:00+00:00",
+      "aqi": 210.5560313819888,
+      "timestamp": "2026-11-22T11:00:00+00:00",
       "category": "Very Unhealthy",
       "color": "#8F3F97",
-      "message": "AQI in Delhi predicted to reach 213 (Very Unhealthy) at 2026-11-21 11:00Z.",
+      "message": "AQI in Delhi predicted to reach 211 (Very Unhealthy) at 2026-11-22 11:00Z.",
       "extra": {
         "horizon_h": 12
       }
     },
     {
-      "issued_at": "2026-11-21T23:12:15.076198+00:00",
+      "issued_at": "2026-11-22T03:10:42.470119+00:00",
       "city": "Delhi",
       "level": "very_unhealthy",
-      "aqi": 207.12477982282417,
-      "timestamp": "2026-11-21T23:00:00+00:00",
+      "aqi": 208.3878172852447,
+      "timestamp": "2026-11-22T23:00:00+00:00",
       "category": "Very Unhealthy",
       "color": "#8F3F97",
-      "message": "AQI in Delhi predicted to reach 207 (Very Unhealthy) at 2026-11-21 23:00Z.",
+      "message": "AQI in Delhi predicted to reach 208 (Very Unhealthy) at 2026-11-22 23:00Z.",
       "extra": {
         "horizon_h": 24
       }
     },
     {
-      "issued_at": "2026-11-21T23:12:15.076198+00:00",
+      "issued_at": "2026-11-22T03:10:42.470119+00:00",
       "city": "Delhi",
-      "level": "very_unhealthy",
-      "aqi": 213.5521793533952,
-      "timestamp": "2026-11-22T23:00:00+00:00",
-      "category": "Very Unhealthy",
-      "color": "#8F3F97",
-      "message": "AQI in Delhi predicted to reach 214 (Very Unhealthy) at 2026-11-22 23:00Z.",
+      "level": "unhealthy",
+      "aqi": 184.45689947854981,
+      "timestamp": "2026-11-23T23:00:00+00:00",
+      "category": "Unhealthy",
+      "color": "#FF0000",
+      "message": "AQI in Delhi predicted to reach 184 (Unhealthy) at 2026-11-23 23:00Z.",
       "extra": {
         "horizon_h": 48
       }
     },
     {
-      "issued_at": "2026-11-21T23:12:15.076198+00:00",
+      "issued_at": "2026-11-22T03:10:42.470119+00:00",
       "city": "Delhi",
       "level": "unhealthy",
-      "aqi": 176.66541579406817,
-      "timestamp": "2026-11-23T23:00:00+00:00",
+      "aqi": 169.20404330812246,
+      "timestamp": "2026-11-24T23:00:00+00:00",
       "category": "Unhealthy",
       "color": "#FF0000",
-      "message": "AQI in Delhi predicted to reach 177 (Unhealthy) at 2026-11-23 23:00Z.",
+      "message": "AQI in Delhi predicted to reach 169 (Unhealthy) at 2026-11-24 23:00Z.",
       "extra": {
         "horizon_h": 72
       }
